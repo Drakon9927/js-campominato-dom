@@ -23,6 +23,10 @@ body {
 	border: solid 1px black;
 }
 
-.evidenziato{
-    background-color: black;
+.bomba{
+    background-color: red;
+}
+
+.nobomba{
+	background-color: lightblue;
 }

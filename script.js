@@ -23,12 +23,7 @@ while (bombe.length < 16) {
 
 console.log(bombe);
 
-
-
-
-
-
-
+// Funzione con aggiungi bomba
 function creaQuadrato(contenuto) {
     // Creo un quadrato
     let square = document.createElement("div");
@@ -49,10 +44,6 @@ function creaQuadrato(contenuto) {
             this.classList.add("nobomba");
         }
         
-
-
-
-
     })
 
     return square;
