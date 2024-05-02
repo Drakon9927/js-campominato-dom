@@ -40,7 +40,19 @@ function creaQuadrato(contenuto) {
 
     square.addEventListener("click", function(){
         console.log("cliccato", this); // Il this rappresenta square, un modo per creare la variabile all'interno dell'event listener
-        this.classList.toggle("evidenziato");
+        
+        if (bombe.includes(contenuto)){
+            this.classList.add("bomba");
+        }
+
+        else{
+            this.classList.add("nobomba");
+        }
+        
+
+
+
+
     })
 
     return square;
