@@ -1,4 +1,5 @@
 let griglia = document.getElementById(`grid`);
+let punteggio = 0;
 
 for (let i = 0; i <= 100; i++) {
     
@@ -42,6 +43,8 @@ function creaQuadrato(contenuto) {
 
         else{
             this.classList.add("nobomba");
+            punteggio++;
+            console.log("Punteggio:", punteggio);
         }
         
     })
