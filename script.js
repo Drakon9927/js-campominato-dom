@@ -10,6 +10,25 @@ for (let i = 0; i <= 100; i++) {
     
 }
 
+let bombe = [];
+
+while (bombe.length < 16) {
+    let numeroCasuale = Math.floor(Math.random() * 100) + 1;
+
+    if (!bombe.includes(numeroCasuale)){
+        bombe.push(numeroCasuale)
+    }
+
+}
+
+console.log(bombe);
+
+
+
+
+
+
+
 function creaQuadrato(contenuto) {
     // Creo un quadrato
     let square = document.createElement("div");
